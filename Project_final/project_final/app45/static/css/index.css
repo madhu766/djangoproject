@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,100&family=Roboto:wght@500;700;900&display=swap');
+body{
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.8;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900 !important;
+}
+.logo img{
+    margin-right: 40%;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.navbar{
+    border-top: 20px;
+    border-bottom: 20px;
+    border-left: 20px;
+    border-right: 20px;
+}
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,224,254,0.7),rgba(17,7,254,0.7));
+    z-index: -1;
+}
+
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 14px 22px;
+    transition: all 0.4s ease;
+    
+}
+.btn-main{
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff #000;
+}
+.btn:hover{
+    color: #fff;
+    transform: translateY(-10px);
+}
+.video-btn{
+    width: 120px;
+    height: 100px;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 80px;
+    font-size: 40px;
+
+}
+.navbar{
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+    
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show.nav-link{
+    background:-webkit-linear-gradient(#00e0fe,#1107fe) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-intro{
+    margin-top: 40px;
+    
+}
+.section-intro .divider{
+    height: 4px;
+    width: 80%;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    margin: 16px auto;
+}
+.service .service-img{
+    position: relative;
+}
+.about{
+    margin-top: 40px;
+    height: 4px;
+    width: 80%;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    margin: 16px auto;
+    position: relative;
+}
+.nav-item{
+    font-size: 25px; 
+}
+.logo{
+    margin-right: 30%;
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+.service .service-img .icon{
+    width: 90px;
+    height: 90px;
+    background:linear-gradient(to right,#00e0fe,#1107fe); 
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.service .service-img .icon{
+    font-size: 40px;
+}
+.MOCKEXAMS {
+    background: -webkit-linear-gradient(#00e0fe,#1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+}
+.btn-view{
+    padding: 14px 22px;
+    transition: all 0.4s ease;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff #000;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;
+    
+    
+}
+.icons{
+    font-size: 40px;
+    
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+}
+#google{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    color:red ;
+}
+#google:hover{
+    transform: translateY(-10px);
+}
+#face{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    color: blue;
+}
+#face:hover{
+    transform: translateY(-10px);
+}
+#whats{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    color: green;
+}
+#whats:hover{
+    transform: translateY(-10px);
+}
+#linkin{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    color: blue;
+}
+#linkin:hover{
+    transform: translateY(-10px);
+
+}
+#twit{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    color: blue;
+}
+#twit:hover{
+    transform: translateY(-10px);
+}
+#insta{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    color:red;
+}
+#insta:hover{
+    transform: translateY(-10px);
+}
+#you{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    color:red;
+}
+#you:hover{
+    transform: translateY(-10px); 
+}
+#aws img{
+    border-radius: 10%;
+}
+
+/* ---------------------------search--------------------------------- */
+.Search{
+    display: flex;
+    padding: 6px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.Search.textbox{
+    width: 0;
+    text-indent: 16px;
+    transition: 0.4s;
+}
+.Search :hover{
+    background: rgba(255,255,255,0.1);
+
+}
+.Search:hover .textbox{
+    width: 180px;
+}
+.Search.icon{
+    pointer-events: none;
+    border-radius: inherit;
+    background: #8f44fd;
+    width: 50px;
+    height: 50px;
+}
+/* ----------------contact------------------------------- */
+.form-floating{
+    position: relative;
+}
+.mean{
+    position: absolute;
+    top: calc(30%);
+    left: 1.25rem;
+}
+.form-floating label, .form-floating .form-control{
+    left: .5rem;
+    padding-left: 3.5rem;
+}
+.mean-textarea{
+    position: absolute;
+    top: 1.8rem;
+    left: 1.25rem;
+}
+
+.style{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+.post{
+    background-color: #d40d0de1;
+}
+
+
+
